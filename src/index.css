@@ -11,6 +11,10 @@ body {
     font-size: 1.5em;
 }
 
+.contact-photo {
+  order: 0;
+}
+
 .contact:last-child {
     border: 0;
 }
@@ -20,7 +24,13 @@ body {
 }
 
 .contact-name {
-    flex-grow: 1
+    font-weight: normal;
+    flex-grow: 1;
+    order: 1;
+}
+
+.contact-address {
+  order: 2;
 }
 
 .contact:target {
