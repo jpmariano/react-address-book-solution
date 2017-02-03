@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact(props) {
     return (
-        <div className="contact">
+        <div id={`c${props.index}`} className="contact">
             <img className="contact-photo" src={props.photo} alt="Contact photo" />
             <div className="contact-name">
                 {props.name}

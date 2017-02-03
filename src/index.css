@@ -23,3 +23,7 @@ body {
     flex-grow: 1
 }
 
+.contact:target {
+  background: rgba(255, 255, 0, 0.4);
+}
+
