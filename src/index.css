@@ -4,6 +4,10 @@ body {
   font-family: sans-serif;
 }
 
+h2 {
+    font-size: 1em;
+}
+
 .contact {
     display:flex;
     border-bottom: 1px solid black;
